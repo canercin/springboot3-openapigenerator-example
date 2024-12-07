@@ -103,6 +103,7 @@
                             <generatorName>spring</generatorName>
                             <apiPackage>com.example.openapigenerator.api</apiPackage>
                             <modelPackage>com.example.openapigenerator.model</modelPackage>
+                            <output>${project.basedir}/SRC-GEN</output>
                             <configOptions>
                                 <delegatePattern>true</delegatePattern>
                                 <useJakartaEe>true</useJakartaEe>
